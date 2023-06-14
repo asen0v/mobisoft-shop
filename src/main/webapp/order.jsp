@@ -78,20 +78,15 @@
 		
 
                   <tr>
-                  
                       <td> <input type="hidden" id="txtItemID" name="txtItemID" value="<%=resultSet.getString("id")%>"></td>
-                  </tr>
-				  
+                  </tr>	  
                   <tr>
-                  
                       <td> <input type="hidden" id="txtUserID" name="txtUserID" value="<% out.println(session.getAttribute("userID")); %>"></td>
                   </tr>
                   <tr>
                       <td>Type</td>
-                      <td>
-					 
-					  <input class="form-control" type="text" name="txtItemType" value="<%=resultSet.getString("type")%>"></td>
-                 
+                      <td>		 
+		<input class="form-control" type="text" name="txtItemType" value="<%=resultSet.getString("type")%>"></td>
 				  </tr>
                   <tr>
                       <td>Make</td>
@@ -100,9 +95,7 @@
                   <tr>
                       <td>Model</td>
                       <td><input class="form-control" type="text" name="txtItemModel" value="<%=resultSet.getString("model")%>"></td>
-                  </tr>
-				  
-				  
+                  </tr>	  
 				    <tr>
                       <td>Quantity</td>
                       <td> <input class="form-control" type="number" id="txtItemQty" name="txtItemQty" value="1"></td>
@@ -110,13 +103,8 @@
 				    <tr>
                       <td>Price</td>
                       <td> <input class="form-control" type="text" id="txtItemPrice" name="txtItemPrice"  value="<%=resultSet.getString("price")%>" readonly></td>
-                  </tr>
-				  
-				  
-				 
+                  </tr>	 
                   <tr >
-				  
-                      
                       <td><br/><input class="btn btn-primary rounded-pill px-10" type="submit" value="Purchase"></td>
                   </tr>
               </table>

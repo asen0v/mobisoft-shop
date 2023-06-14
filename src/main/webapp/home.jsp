@@ -48,9 +48,9 @@
     <div class="d-flex text-body-secondary pt-3">
       <% String type = rs.getString("type");
          if (type.equals("phone")) { %>
-        <img src="./img/phone.png" height="32px" width="32px"> &nbsp;
+        <img src="./img/phone.png" height="32px" width="32px"/> &nbsp;
       <% } else if (type.equals("accessory")) { %>
-        <img src="./img/accessory.png" height="32px" width="32px"> &nbsp;
+        <img src="./img/accessory.png" height="32px" width="32px"/> &nbsp;
       <% } %>
       <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
         <div class="d-flex justify-content-between">

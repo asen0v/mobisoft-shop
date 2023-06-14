@@ -41,7 +41,7 @@
 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
       
-          <h2>  <span data-feather="users"></span> Users  </h2>  <% if (msg != null && !msg.isEmpty()) { %>
+          <h2>  <span data-feather="users"></span> View Orders  </h2>  <% if (msg != null && !msg.isEmpty()) { %>
 	  <div id="msg">
 <h3><i style="color: red">
 	   <%= msg %>

@@ -66,7 +66,9 @@
                   <td><%=rs.getString("uName") %></td>
 				  <td>£<%=rs.getString("uBank") %></td>
                   <td><%=rs.getString("uType") %></td>
-                  <td><a href="edit-user.jsp?uId=<%=rs.getString("uId") %>"><span data-feather="edit"></span></a> &nbsp; <a href="deluser.jsp?uId=<%=rs.getString("uId") %>"><span data-feather="trash"></span></a></td>
+                  <td><a href="edit-user.jsp?uId=<%=rs.getString("uId") %>">
+                          <span data-feather="edit"></span></a> &nbsp; 
+                          <a href="deluser.jsp?uId=<%=rs.getString("uId") %>"><span data-feather="trash"></span></a></td>
                 </tr>
                 <% } %>
               </tbody>
